@@ -1,0 +1,27 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": ["standard-with-typescript", "prettier"],
+  "root": true,
+  "overrides": [],
+  "parserOptions": {
+    "project": ["./tsconfig.json", "./frontend/tsconfig.json"],
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./tsconfig.paths.json"
+      }
+    }
+  },
+  "rules": {}
+}

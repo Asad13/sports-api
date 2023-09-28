@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  redis:
+    image: redis:7.0.12
+    ports:
+      - 6379:6379
+    networks:
+      - mynetwork
+networks:
+  mynetwork:

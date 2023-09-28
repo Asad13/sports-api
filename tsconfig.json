@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+  "ts-node": {
+    "transpileOnly": true,
+    "require": ["typescript-transform-paths/register"]
+  },
+  "compilerOptions": {
+    "rootDir": "."
+  },
+  "include": ["src/**/*", "index.d.ts", "jest.config.ts", "__tests__/**/*"],
+  "exclude": ["node_modules", "dist", "coverage"]
+}
