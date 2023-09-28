@@ -11,8 +11,8 @@
   ```
 
 - Clone the Git repository. Run any of the following command on your terminal/powershell **[Not required if you are using the zip]**:
-  - **SSH:** `git clone git@github.com:{{username}}/{{repository_name}}.git`
-  - **HTTPS:** `git clone https://github.com/{{username}}/{{repository_name}}.git`
+  - **SSH:** `git clone git@github.com:Asad13/sports-api.git`
+  - **HTTPS:** `git clone https://github.com/Asad13/sports-api.git`
 - Convert the name of the file .env.example to .env (Not needed for zip version).
 - Download and install Redis. Use on of the following approach:
 
